@@ -1,0 +1,77 @@
+/* .navbar{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+.navbar-name{
+    margin-left:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.navbar-name p{
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+
+.navbar-buttons {
+    margin-right: 10px;
+}
+
+.login {
+    margin-right: 5px;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+}
+.register {
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+} */
+
+.navbar {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Add space between the name and buttons */
+    padding: 0 20px; /* Add padding to the left and right to increase spacing */
+  }
+  
+  .navbar-name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    margin: 0;
+  }
+
+  .navbar-name p{
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+  
+  .navbar-buttons {
+    display: flex; /* To align buttons horizontally */
+    gap: 10px; /* Add spacing between buttons */
+  }
+  
+  .login,
+  .register {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Vertically center text in buttons */
+    justify-content: center; /* Horizontally center text in buttons */
+  }
+  

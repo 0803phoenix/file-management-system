@@ -1,0 +1,100 @@
+/* .login-form {
+    width:400px;
+}
+.login-form-lables{
+    margin:20px;
+
+}
+.login-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+.login-content{
+    display: flex;
+    align-items: center;
+}
+
+.vertical-line {
+    width: 2px;
+    height: 100px;
+    background-color: #000;
+    margin: 0 20px;
+}
+.submit-button{
+    margin-left:20px;
+}
+.text {
+    justify-content: end;
+    display: flex;
+    margin-right:20px
+}
+.text p{
+    font-size: 15px;
+}
+.text a{
+    font-size: 15px;
+    cursor: pointer;
+    color: blueviolet;
+    text-decoration: underline;
+} */
+.main-container {
+    height:100vh;
+}
+
+.login-form {
+    width: 400px;
+  }
+  
+  .login-form-lables {
+    margin: 20px;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  
+  .login-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .file-management-text {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    /* margin: 20px; */
+    margin-top: 60px;
+  }
+  
+  .vertical-line {
+    width: 2px;
+    height: 100px;
+    background-color: #000;
+    margin: 0 20px;
+  }
+  
+  .submit-button {
+    margin-left: 20px;
+  }
+  
+  .text {
+    display: flex;
+    margin-right: 20px;
+    justify-content: end;
+  }
+  
+  .text p {
+    font-size: 15px;
+  }
+  
+  .text a {
+    font-size: 15px;
+    cursor: pointer;
+    color: blueviolet;
+    text-decoration: underline;
+  }
+  
